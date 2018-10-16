@@ -1,8 +1,20 @@
-var button = document.getElementById('button');
-var body = document.querySelector('body');
+var button = document.querySelector('button');
 
 
 button.addEventListener('click', function() {
-
-    body.classList.toggle("purple");
+    document.body.classList.toggle('purple');
 });
+
+// var body = document.querySelector('body');
+// var button = document.querySelector("button");
+// var isPurple = false;
+
+// button.addEventListener("click", function () {
+//     if(isPurple){
+//         document.body.style.background = "white";
+//         isPurple = false;
+//     } else {
+//         document.body.style.background = "purple";
+//         isPurple = true;
+//     }    
+// });
