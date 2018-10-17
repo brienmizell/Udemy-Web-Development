@@ -51,7 +51,7 @@ function reset() {
 };
 
 numImput.addEventListener('change', function () {
-    winningScoreDisplay.textContent = numImput.value;
-    winningScore = Number(numImput.value);
+    winningScoreDisplay.textContent = this.value;
+    winningScore = Number(this.value);
     reset();
 })
