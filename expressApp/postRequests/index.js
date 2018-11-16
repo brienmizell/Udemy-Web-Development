@@ -12,6 +12,10 @@ app.get('/friends', function(req, res) {
 	res.render('friends', { friends: friends });
 });
 
+app.post('/addfriend', function(req, res) {
+	res.send('YOU HAVE REACHED THE POST ROUTE.');
+});
+
 app.listen(3000, function() {
 	console.log('Server started!!!');
 });
